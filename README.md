@@ -26,6 +26,10 @@ The assesed vendors include:
 
 The dataset is organized into profiles, each of which represents a specific benchmarking run conducted on a PTP cluster using a specific PTP vendor. Each profile contains metadata about the benchmark, vendor, and cluster used, as well as a list of endpoints on which the profile was conducted. Each endpoint contains performance metrics and log records collected during the benchmarking run.
 
+### Benchmark Overview
+
+We provide an overview in **[Benchmark Overview](benchmark_overview.md)** for your convenience. It includes a description of the benchmarks used in the dataset, their purpose, and the conditions under which they were conducted, and a summary of the performance metrics collected during the benchmarking runs for each vendor and cluster.
+
 ### Data Format
 
 The dataset is grouped into profiles. Each profile is contained within a JSON file in the `profiles` directory. 
