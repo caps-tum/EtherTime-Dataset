@@ -30,6 +30,10 @@ The dataset is organized into profiles, each of which represents a specific benc
 
 We provide an overview in **[Benchmark Overview](benchmark_overview.md)** for your convenience. It includes a description of the benchmarks used in the dataset, their purpose, and the conditions under which they were conducted, and a summary of the performance metrics collected during the benchmarking runs for each vendor and cluster.
 
+### Note for Anonymized Dataset Repository
+
+Due to size limitations in the anonymization process and our repository infrastructure, not all data could be included in the anonymized access to the repository. We tried including as much data as possible, but the anonymized dataset repository contains only a subset of the profiles and log records collected during the EtherTime project. The full dataset is available upon request.
+
 ### Data Format
 
 The dataset is grouped into profiles. Each profile is contained within a JSON file in the `profiles` directory. 
